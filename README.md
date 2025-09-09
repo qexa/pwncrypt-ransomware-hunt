@@ -83,6 +83,7 @@ Open the generated file and refine it with your findings.
 
 ## Architecture
 ```mermaid
+
 %%{init: {'theme': 'neutral'}}%%
 flowchart LR
   A["Azure Windows VM\nMDE Onboarded"] --> B["Simulate PwnCrypt (safe PS script)"]
