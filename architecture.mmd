@@ -1,0 +1,6 @@
+%% Mermaid architecture diagram
+flowchart LR
+  A[Azure Windows VM\nMDE Onboarded] --> B[Simulate PwnCrypt (safe)]
+  B --> C[Defender XDR Telemetry]
+  C --> D[KQL Detections]
+  D --> E[Investigation & Report]
