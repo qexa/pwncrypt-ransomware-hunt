@@ -85,10 +85,11 @@ Open the generated file and refine it with your findings.
 ```mermaid
 %%{init: {'theme': 'neutral'}}%%
 flowchart LR
-  A[Azure Windows VM<br/>MDE Onboarded] --> B[Simulate PwnCrypt<br/>(safe PS script)]
-  B --> C[Defender XDR Telemetry]
-  C --> D[KQL Detections]
-  D --> E[Investigation & Report<br/>(CLI + Docs)]
+  A["Azure Windows VM\nMDE Onboarded"] --> B["Simulate PwnCrypt (safe PS script)"]
+  B --> C["Defender XDR Telemetry"]
+  C --> D["KQL Detections"]
+  D --> E["Investigation & Reporting (CLI + Docs)"]
+
 ```
 See the Mermaid file at `architecture.mmd`.
 
